@@ -2,7 +2,7 @@ class Perro extends Animal {
     private raza: string;
 
     constructor(nombre: string, edad: number, raza: string) {
-        super(nombre, edad, "Perro");
+        super(nombre, edad, "perro");
         this.raza = raza;
     }
 
