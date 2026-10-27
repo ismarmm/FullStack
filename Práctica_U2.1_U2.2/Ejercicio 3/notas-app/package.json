@@ -1,0 +1,13 @@
+{
+  "name": "notas-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}
