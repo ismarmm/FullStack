@@ -1,0 +1,18 @@
+// Uso: node bytes.js "5 €"
+const texto = process.argv[2]
+
+if (texto === undefined) {
+  console.error('Uso: node bytes.js <texto>')
+  process.exit(1)
+}
+
+console.log('Caracteres:', texto.length)
+console.log('Bytes     :', Buffer.byteLength(texto))
+console.log('Buffer    :', Buffer.from(texto))
+
+// Abecedario en mayúsculas con un buffer (la 'A' es el 65)
+const abc = Buffer.alloc(26)
+for (let i = 0; i < abc.length; i++) {
+  abc[i] = 65 + i
+}
+console.log(abc.toString('ascii'))
