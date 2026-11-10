@@ -34,6 +34,6 @@ class Animal {
     }
 
     hacerRuido(): void {
-        console.log("El animal hace un ruido.");
+        console.log("el animal hace un ruido.");
     }
 }

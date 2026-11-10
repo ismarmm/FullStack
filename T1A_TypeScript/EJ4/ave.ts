@@ -2,7 +2,7 @@ class Pajaro extends Animal {
     private puedeVolar: boolean;
 
     constructor(nombre: string, edad: number, puedeVolar: boolean) {
-        super(nombre, edad, "Pajaro");
+        super(nombre, edad, "pajaro");
         this.puedeVolar = puedeVolar;
     }
 

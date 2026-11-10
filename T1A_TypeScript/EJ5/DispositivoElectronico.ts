@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Dispositivo {
     private nombre : string;
     private encendido : boolean;
@@ -28,3 +29,11 @@ class Dispositivo {
         this.encendido = false;
     }
 }
+=======
+interface DispositivoElectronico {
+    nombre: string;
+    encendido: boolean;
+    encender(): void;
+    apagar(): void;
+}
+>>>>>>> 2077bd29c8080a04f1e02d9d8f017cbc37ead147

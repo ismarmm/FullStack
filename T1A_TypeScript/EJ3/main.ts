@@ -1,9 +1,9 @@
 let empleado1 = new Employee(
-    "Lucía",  "Pérez",   28,  new Date("2022-04-10"),  new Date("2025-06-30"),  "Diseñadora"
+    "isma",  "ruiz",   22,  new Date("2026-15-10"),  new Date("2025-06-30"),  "programador bueno"
 );
 
 let empleado2 = new Employee(
-    "Carlos","López", 34, new Date("2023-09-01"), null, "Programador"
+    "adri","nose", 20, new Date("2026-15-18"), null, "programador malo"
 );
 
 console.log(empleado1.getNombre() + " " + empleado1.getApellido() + ", edad: " + empleado1.getEdad());
