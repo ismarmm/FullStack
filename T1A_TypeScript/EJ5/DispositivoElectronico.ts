@@ -18,8 +18,6 @@ class Dispositivo {
 	public set $nombre(value: string) {
 		this.nombre = value;
 	}
-
-
 	public set $encendido(value: boolean) {
 		this.encendido = value;
 	}
