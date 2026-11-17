@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Menú */
+nav {
+  background: #903163;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Pie */
+footer {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  color: #777;
+}
+
+/* Tablas (horario y catálogo) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background: #f3e6ee;
+}
+
+/* Estado de los libros */
+.disponible {
+  color: #1b7f3b;
+  font-weight: bold;
+}
+
+.prestado {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.vacio {
+  padding: 12px;
+  background: #fff4e5;
+  border-left: 4px solid #e67e22;
+}

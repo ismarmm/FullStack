@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Menú */
+nav {
+  background: #903163;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Pie */
+footer {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  color: #777;
+}
